@@ -19,37 +19,41 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.jingil:Awsome-Toast:1.0.1'
+	        implementation 'com.github.jingil:AnimatedToast:V1.0.0'
 	}
 
 
 Use:
-
-First import
-
-	import support.fuchsia.animatedtoast.AnimatedToast;
 	
 Then you can just call the show toast method by syntax
 
-	AnimatedToast.showToast(context,message, duration_of_message, toast_type);
-	
+ 	makeToast(Context context, String message, int duration) 
+ 
+ 	or
+ 
+ 	makeToast(Context context, String message, int duration, int style)
+ 
+ 	or
+  
+ 	makeToast(Context context, String message, int duration, int style, int gravity)
+  
+  	or
+  
+ 	makeToast(Context context, String message, int duration, int style, int gravity, String backgroundcolor)
+ 
+		
 Examples:
 	
-	 AnimatedToast.showToast(getApplicationContext(), "This is a sample success toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.SUCCESS);
+         new AnimatedToast.makeToast(MainActivity.this, "This is a sample success toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.SUCCESS, AnimatedToast.TOP).show();
 	 
-	 
-	 AnimatedToast.showToast(getApplicationContext(), "This is a sample failure toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.ERROR);
-			 
+	 new AnimatedToast.makeToast(MainActivity.this, "This is a sample failure toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.FAILURE, AnimatedToast.BOTTOM).show();
          
-	 AnimatedToast.showToast(getApplicationContext(), "This is a sample info toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.INFO);
-		
-         
-	 AnimatedToast.showToast(getApplicationContext(), "This is a sample warning toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.WARNING);
-
+	 new AnimatedToast.makeToast(MainActivity.this, "This is a sample warning toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.WARNING, AnimatedToast.CENTER).show();
+                
+	new AnimatedToast.makeToast(MainActivity.this, "This is a sample info toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.INFO, AnimatedToast.TOP).show();
 
 
 Please check the sample project for more details.
-
 
 This project is licensed under Apache License 2.0. 
 Commercial use, Modification, Distribution, Private use are permitted.
