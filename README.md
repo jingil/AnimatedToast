@@ -1,4 +1,4 @@
-# Awsome-Toast
+# Animated Toast
 Animated Toast Library using Lottie animation and Typewriter animation
 
 
@@ -44,11 +44,11 @@ Then you can just call the show toast method by syntax
 		
 Examples:
 	
-         new AnimatedToast.makeToast(MainActivity.this, "This is a sample success toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.SUCCESS, AnimatedToast.TOP).show();
+	new AnimatedToast.makeToast(MainActivity.this, "This is a sample success toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.SUCCESS, AnimatedToast.TOP).show();
 	 
-	 new AnimatedToast.makeToast(MainActivity.this, "This is a sample failure toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.FAILURE, AnimatedToast.BOTTOM).show();
+	new AnimatedToast.makeToast(MainActivity.this, "This is a sample failure toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.FAILURE, AnimatedToast.BOTTOM).show();
          
-	 new AnimatedToast.makeToast(MainActivity.this, "This is a sample warning toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.WARNING, AnimatedToast.CENTER).show();
+	new AnimatedToast.makeToast(MainActivity.this, "This is a sample warning toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.WARNING, AnimatedToast.CENTER).show();
                 
 	new AnimatedToast.makeToast(MainActivity.this, "This is a sample info toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.INFO, AnimatedToast.TOP).show();
 
