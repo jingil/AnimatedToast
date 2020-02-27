@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 new AnimatedToast.makeToast(MainActivity.this, "This is a sample info toast!", AnimatedToast.LENGTH_LONG, AnimatedToast.INFO, AnimatedToast.TOP).show();
             }
         });
+
     }
 
 }
