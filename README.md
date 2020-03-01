@@ -58,6 +58,6 @@ Please check the sample project for more details.
 This project is licensed under Apache License 2.0. 
 Commercial use, Modification, Distribution, Private use are permitted.
 
-Please feel free to contact me on jingilandroid@gmail.com f any help needed. 
+Please feel free to contact me on jingilandroid@gmail.com if any help needed. 
 
 Enjoy :)
