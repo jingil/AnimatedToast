@@ -61,3 +61,6 @@ Commercial use, Modification, Distribution, Private use are permitted.
 Please feel free to contact me on jingilandroid@gmail.com if any help needed. 
 
 Enjoy :)
+
+[![](https://jitpack.io/v/jingil/AnimatedToast.svg)](https://jitpack.io/#jingil/AnimatedToast)
+
