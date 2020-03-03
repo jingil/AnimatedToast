@@ -23,6 +23,10 @@ Step 2. Add the dependency
 	}
 
 
+
+[![](https://jitpack.io/v/jingil/AnimatedToast.svg)](https://jitpack.io/#jingil/AnimatedToast)
+
+
 Use:
 	
 Then you can just call the show toast method by syntax
@@ -62,5 +66,5 @@ Please feel free to contact me on jingilandroid@gmail.com if any help needed.
 
 Enjoy :)
 
-[![](https://jitpack.io/v/jingil/AnimatedToast.svg)](https://jitpack.io/#jingil/AnimatedToast)
+
 
