@@ -1,6 +1,8 @@
 # Animated Toast
 Animated Toast Library using Lottie animation and Typewriter animation
 
+![toast](https://user-images.githubusercontent.com/17900470/75760946-2f4b6280-5d5e-11ea-84b8-a72df222b31e.png)
+
 
 To get this library into your build:
 
